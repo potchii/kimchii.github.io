@@ -47,7 +47,7 @@ body {
     color: #e4f0fa8c;
     letter-spacing: .01em;
 }
-a, a:hover, a:focus, a:active {
+a, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
@@ -90,5 +90,8 @@ a, a:hover, a:focus, a:active {
 }
 .copyright-text {
     font-size: 14px;
+}
+.nav-container:hover {
+    color: #e4f0fa8c;
 }
 
