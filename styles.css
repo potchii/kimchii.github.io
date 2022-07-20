@@ -3,6 +3,52 @@ body {
     background-color: #222222;
     color: #FAFAFA;
 }
+.fade-in {
+    opacity: 1;
+    animation-delay: 0s;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .3s;
+}
+.fade-in1 {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+.fade-in2 {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .7s;
+}
+.fade-in3 {
+    opacity: 1;
+	animation-name: fade-in3;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fade-in3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
 .main-layout {
     max-width: 780px;
     padding: 0px 1.1rem;
@@ -51,11 +97,10 @@ a, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
-#divider {
+.divider {
     border: 1px solid #e4f0fa8c;
     width: 100%;
     opacity: 0.2;
-    margin-bottom: 30px;
 }
 .viewWork {
     font-size: 1.3rem;
@@ -74,7 +119,6 @@ a, a:focus, a:active {
     margin-left: 10px;
 }
 .footer-layout {
-    max-width: 780px;
     padding: 0px 1.1rem;
     display: flex;
     margin-left: auto;
@@ -84,6 +128,8 @@ a, a:focus, a:active {
     flex-direction: column;
 }
 .footer-copyright {
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,4 +140,9 @@ a, a:focus, a:active {
 .nav-container:hover {
     color: #e4f0fa8c;
 }
+.footer-container {
+    margin-top: 200px;
+    padding-top: 10px;
+}
+
 
