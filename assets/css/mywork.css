@@ -50,4 +50,43 @@ a, a:hover, a:focus, a:active {
 .down-arrow {
     color: #e4f0fa8c;
 }
-
+.work-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.work-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+    transition: 0.3s;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: 	#181818;
+    overflow: hidden;
+    margin-right: 100px;
+}
+.work-container:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.1s ease-out 0s;
+    user-select: none;
+}
+.main-subtitle {
+    color: #e4f0fa8c;
+    letter-spacing: .01em;
+    margin-bottom: 30px;
+}
+.item-container {
+    display: flex;
+}
+.item-title {
+    font-weight: 600px;
+    font-size: 18px;
+}
+.item-subtitle {
+    padding: 5px;
+}
