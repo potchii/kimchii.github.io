@@ -79,7 +79,7 @@ body {
 }
 .title-wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start;    
     flex-direction: column;
 }
 .hero-title {
@@ -89,9 +89,13 @@ body {
     letter-spacing: .01em;
 }
 .hero-subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     font-size: 1rem;
     color: #e4f0fa8c;
     letter-spacing: .01em;
+
 }
 a, a:focus, a:active {
     text-decoration: none;
@@ -143,6 +147,20 @@ a, a:focus, a:active {
 .footer-container {
     margin-top: 200px;
     padding-top: 10px;
+}
+.hero-titleWrapper {
+    display: flex;
+    flex-direction: row;
+}
+.hero-subtitleWrappper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.subtitle-iconWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 
