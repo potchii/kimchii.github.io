@@ -1,54 +1,72 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #222222;
-    color: #FAFAFA;
+  font-family: "Montserrat", sans-serif;
+  background-color: #222222;
+  color: #fafafa;
 }
-.main-layout, .taskbar-wrapper {
-    max-width: 780px;
-    padding: 0px 1.1rem;
-    display: flex;
-    margin: auto;
-    justify-content: flex-start;
-    flex-direction: column;
-
+.main-layout,
+.taskbar-wrapper {
+  max-width: 780px;
+  padding: 0px 1.1rem;
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .taskbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.2rem;
 }
 .profile-icon-wrapper {
-    width: 4rem;
-    height: 4rem;
-    margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
 }
 .profile-icon {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
 }
 .taskbar-title {
-    margin-left: -20px;
-    margin-right: 10px;
-}
-a, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+  margin-left: -20px;
+  margin-right: 10px;
 }
 .taskbar-selectionWrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 .taskbar-slash {
-    margin-right: 10px;
-    color: #e4f0fa8c;
+  margin-right: 10px;
+  color: #e4f0fa8c;
 }
 .down-arrow {
-    color: #e4f0fa8c;
-
+  color: #e4f0fa8c;
 }
-
+.main-subtitle {
+  color: #fafafa;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+.main-subtitle2 {
+  color: #fafafa;
+  letter-spacing: 01em;
+  margin-bottom: 10px;
+}
